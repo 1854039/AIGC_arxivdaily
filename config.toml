@@ -1,26 +1,31 @@
-site_title = "MyArxiv"
+site_title = "MyArxiv - RL+Diffusion"
 limit_days = 7
 cache_url = "https://1854039.github.io/MyArxiv/cache.json"
 
 [[sources]]
-limit = 150
-category = "cs.CL"
-title = "Computation and Language"
+limit = 100
+category = "cs.LG"
+title = "Machine Learning"
 
 [[sources]]
-limit = 150
+limit = 80
+category = "cs.AI" 
+title = "Artificial Intelligence"
+
+[[sources]]
+limit = 60
+category = "stat.ML"
+title = "Statistics - Machine Learning"
+
+[[sources]]
+limit = 80
 category = "cs.CV"
 title = "Computer Vision and Pattern Recognition"
 
 [[sources]]
-limit = 150
-category = "cs.IR"
-title = "Information Retrieval"
-
-[[sources]]
-limit = 150
-category = "cs.MM"
-title = "Multimedia"
+limit = 40
+category = "cs.RO"
+title = "Robotics"
 
 [scripts]
 highlight_title = "scripts/highlight_title.rhai"
