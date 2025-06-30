@@ -10,7 +10,7 @@ let authors_array = [
     "David Silver", "DeepMind", "OpenAI", "Dario Amodei", "Ilya Sutskever",
     "Richard Sutton", "Andrew Barto", "Peter Stone", "Jan Peters", 
     "Yang Song", "Jascha Sohl-Dickstein", "Diederik Kingma", "Max Welling",
-    "Jonathan Ho", "Chitwan Saharia", "Tim Salimans", "Prafulla Dhariwal"]
+    "Jonathan Ho", "Chitwan Saharia", "Tim Salimans", "Prafulla Dhariwal"];
 let titles_model = ["Diffusion","Flowmatching","Flow", "GPT", "Transformer"];
 let titles_method = ["RL","Post-train","GRPO","DPO","PPO","Pre-train", "Pretrain", "Prompt", "Self-Supervised"];
 let titles =  titles_model + titles_method + titles_type;
